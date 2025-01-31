@@ -24,6 +24,7 @@ public class ReadDataFromExcel {
 			XSSFCell cell = row.getCell(j);
 			return cell.getStringCellValue();
 			
+			
 		}
 		public static double readRollNo( int i,int j) throws Exception
 		{
